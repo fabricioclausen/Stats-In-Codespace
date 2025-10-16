@@ -1,0 +1,12 @@
+jupyter
+jupyterlab
+notebook
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+statsmodels
+plotly
