@@ -4,6 +4,7 @@ notebook
 ipykernel
 numpy
 pandas
+polars>=1.0.0
 matplotlib
 seaborn
 scipy
