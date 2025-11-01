@@ -24,7 +24,15 @@ RUN pip3 install --no-cache-dir --break-system-packages \
     ipykernel \
     polars>=1.0.0 \
     radian \
-    stemgraphic
+    stemgraphic \
+    matplotlib \
+    seaborn \
+    pandas \
+    numpy \
+    scipy \
+    scikit-learn \
+    plotly \
+    pyarrow
 
 # Instalar pacotes R necessários
 RUN R -e "install.packages(c('IRkernel', 'languageserver'), repos='https://cloud.r-project.org', Ncpus=2)"
