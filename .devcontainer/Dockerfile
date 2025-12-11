@@ -16,6 +16,9 @@ RUN apt-get update && apt-get install -y \
     vim \
     sudo \
     gnupg2 \
+    texlive-xetex \
+    texlive-fonts-recommended \
+    texlive-plain-generic \
     apt-transport-https \
     ca-certificates \
     dirmngr \
